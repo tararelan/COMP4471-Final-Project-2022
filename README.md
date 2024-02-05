@@ -1,5 +1,5 @@
 # Deep Learning and Sign Language Interpretation
 ## Final project for COMP4471 (Deep Learning in Computer Vision) at HKUST in 2022 Fall
 
-# Abstract
+### Abstract
 Sign languages are a language system that allows those hard of hearing to communicate. The extraction of complex head and hand movements along with their constantly changing shapes for recognition of sign language is considered a difficult problem in computer vision. This paper proposes the recognition of American Sign Language (ASL) video gestures using Convolutional Neural Networks (CNN) to extract high level features and Long Short-Term Memory (LSTM) to generate captions as well as a deeper network such as MobileNet v2. The database is trained from scratch using the 12,000 videos available from Kaggle’s World Level American Sign Language data-set. Each sign occupies 40 frames in a video. Training was performed with 60% of the data-set, validating with 20% and testing with the remaining 20%. The final selected architecture has only 9 layers including dropout layers, which have increased the training accuracy to 100%, validation accuracy to 80%, and testing accuracy to 94%.
